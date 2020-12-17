@@ -15,11 +15,17 @@ This Talend project can be imported and build in Talned open studio for ESB.
 In this project data in a csv fille list will be imported to PostgreSQL databse. 
 A PostgreSQL database needs to be preconfigured. The database schema `(with sample data)` is included in [database-PostgreSQL](./database_PostgreSQL) directory.
 
+`Sample device_model table`
+
+![alttext](./images/Postgres-Devicemodel-Table.PNG?raw=true)
+
+
 ## Project configuration
 
 Context variables needs to be congured according to the envirionment as mentioned below
 
 | Context Variable | Description  |
+--- | ---
 | operator_id | DMS operator id|
 | postgresHost | PostgreSQL database host IP| 
 | postgresPort | PostgreSQL database port| 
@@ -62,7 +68,7 @@ Location configured as `dmsRoot` will be considered as the root directory for al
 
 Completed files will be renamed and move to location specified in `dmsCompleted` relative path.
 
-![alttext](./images/Sample-Competed.PNG?raw=true)
+![alttext](./images/Sample-Completed.PNG?raw=true)
 
 Invalid recored in completed files will be renamed and move to location specified in `dmsInvalid`  relative path.
 
