@@ -1,5 +1,5 @@
 # Talend-importDMSdata
-Talend Job to export data from postgreSQL database to csv files. 
+Talend Job to import DMS (Device management System) data in to Device Model master table in Postgres database and update Subscriber (Subscriber Profile) table. 
 
 ![alttext](./images/TalendJob.PNG?raw=true)
 
