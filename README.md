@@ -1,7 +1,7 @@
-# Talend-exportProductCatalogue
+# Talend-importDMSdata
 Talend Job to export data from postgreSQL database to csv files. 
 
-![alttext](https://github.com/myTalendProjects/Talend-exportProductCatalogue/blob/main/images/TalendJob.PNG?raw=true)
+![alttext](./images/TalendJob.PNG?raw=true)
 
 
 ## Import and Build in Talend OpenStudio
