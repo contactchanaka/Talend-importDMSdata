@@ -37,7 +37,7 @@ Context variables needs to be congured according to the envirionment as mentione
 
 `Example Configuration`
 
-![alttext](./images/Talend-context-Var.PNG?raw=true)
+![alttext](./images/Talend-Context-Var.PNG?raw=true)
 
 `Example Directory Structure`
 
