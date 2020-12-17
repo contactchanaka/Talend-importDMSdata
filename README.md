@@ -13,7 +13,7 @@ This Talend project can be imported and build in Talned open studio for ESB.
 
 ### PostgreSQL database
 In this project data in a csv fille list will be imported to PostgreSQL databse. 
-A PostgreSQL database needs to be preconfigured. The database schema `(with sample data)` is included in [database-PostgreSQL](./database_PostgreSQL/) directory.
+A PostgreSQL database needs to be preconfigured. The database schema `(with sample data)` is included in [database-PostgreSQL](./database_PostgreSQL/postgres_subscription.sql) directory.
 
 `Sample device_model table`
 
