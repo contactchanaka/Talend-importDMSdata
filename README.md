@@ -5,8 +5,7 @@ Talend Job to import DMS (Device management System) data in to Device Model mast
 
 
 ## Import and Build in Talend OpenStudio
-This Talend project can be imported and build in Talned open studio for ESB.
-[Talend Job](./IMPORT_DMS_DATA)
+This [Talend project](./IMPORT_DMS_DATA) can be imported and build in Talend open studio for ESB.
 
 ![alttext](./images/ImportProject.PNG?raw=true)
 
