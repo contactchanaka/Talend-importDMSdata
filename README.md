@@ -12,7 +12,7 @@ This Talend project can be imported and build in Talned open studio for ESB.
 ## Prerequisites
 
 ### PostgreSQL database
-In this project data in a csv fille list will be imported to PostgreSQL databse. 
+In this project data in a csv fille list will be imported to PostgreSQL database. 
 A PostgreSQL database needs to be preconfigured. The database schema `(with sample data)` is included in [database-PostgreSQL](./database-PostgreSQL) directory.
 
 `Sample device_model table`
@@ -32,7 +32,7 @@ Context variables needs to be congured according to the envirionment as mentione
 | postgresUser | PostgreSQL database username| 
 | postgresPass | PostgreSQL database password| 
 | postgresDatabase | PostgreSQL database name| 
-| postgresDeviceModel | Device Model table name |
+| postgresDeviceModel | Device Model master data table name |
 | postgresSubscriber | Subscriber table name |
 | dmsSkipped | Relative dir path to store skppied records |
 | dmsInvalid | Relative dir path to store invalid records |
@@ -77,10 +77,3 @@ Invalid recored in completed files will be renamed and move to location specifie
 Skipped recored in completed files will be renamed and move to location specified in `dmsSkipped`  relative path.
 
 ![alttext](./images/Sample-Skipped.PNG?raw=true)
-
-
-
-
-
-
-
